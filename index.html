@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Конвертер единиц: граммы в ложки, мили в километры, °C в °F</title>
+  <meta name="description" content="Бесплатный конвертер единиц измерения: граммы в столовые ложки и чашки с учётом продукта, мили в километры, фунты в килограммы, цельсии в фаренгейты, литры в галлоны и ещё 15 калькуляторов. Без регистрации, всё считается в браузере.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Конвертер единиц измерения">
+  <meta property="og:description" content="Граммы в столовые ложки, мили в километры, температура, объём, скорость, байты и другие популярные пары. Одна страница, без регистрации.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:image" content="favicon.svg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "Конвертер единиц измерения",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "inLanguage": "ru",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RUB" },
+        "description": "Одностраничный конвертер единиц: граммы и ложки, мили и километры, температура, объём, масса, скорость, данные, площадь и другие пары."
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Сколько грамм в столовой ложке?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Зависит от продукта. Для воды 1 столовая ложка 15 мл равна 15 г. Для пшеничной муки при плотности 125 г на чашку 240 мл это около 7,8 г. На странице можно выбрать продукт и пересчитать граммы, чайные и столовые ложки и чашки."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Сколько километров в одной миле?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "В международной миле ровно 1,609344 километра."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Как перевести цельсии в фаренгейты?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "°F = °C × 9/5 + 32. Например, 0 °C = 32 °F, 100 °C = 212 °F, −40 °C = −40 °F."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#osnovnoe">К содержанию</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#verh">
+        <img src="favicon.svg" width="32" height="32" alt="">
+        Конвертер единиц
+      </a>
+      <nav class="toc" aria-label="Содержание">
+        <a href="#grammy-v-lozhki">Граммы и ложки</a>
+        <a href="#mili-v-kilometry">Мили и км</a>
+        <a href="#funty-v-kilogrammy">Фунты и кг</a>
+        <a href="#celsii-v-farengeyty">°C и °F</a>
+        <a href="#litry-v-gallony">Литры и галлоны</a>
+        <a href="#dyuymy-v-santimetry">Дюймы и см</a>
+        <a href="#futy-v-metry">Футы и метры</a>
+        <a href="#untsii-v-grammy">Унции и граммы</a>
+        <a href="#ml-v-zhidkie-untsii">мл и fl oz</a>
+        <a href="#kmch-v-milich">км/ч и mph</a>
+        <a href="#bayty-v-megabayty">Байты</a>
+        <a href="#kv-m-v-kv-futy">м² и футы²</a>
+        <a href="#gektary-v-akry">Гектары и акры</a>
+        <a href="#yardy-v-metry">Ярды и метры</a>
+        <a href="#kvt-v-loshadinye-sily">кВт и л.с.</a>
+        <a href="#kalorii-v-kdzh">Ккал и кДж</a>
+        <a href="#atm-bar-v-psi">атм, бар, psi</a>
+        <a href="#l-100km-v-mpg">л/100 км и mpg</a>
+        <a href="#chasy-v-minuty-v-sekundy">Часы и минуты</a>
+        <a href="#stouny-v-kilogrammy">Стоуны и кг</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="osnovnoe">
+    <div class="wrap">
+      <header class="hero" id="verh">
+        <h1>Конвертер единиц измерения</h1>
+        <p>Граммы в столовые ложки и чашки, мили в километры, температура, объём, скорость и другие популярные пары. Без регистрации: всё считается прямо в браузере, страница одна и открывается сразу.</p>
+      </header>
+
+      <!--
+        Подключение Google AdSense (неактивно, пока нет настоящего идентификатора):
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+      -->
+      <div class="ad-slot ad-slot--banner" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="XXXXXXXXXX" aria-label="Рекламный блок">
+        <span class="ad-slot__label">Реклама</span>
+        <span class="ad-slot__note">Место для блока Google AdSense (заглушка, код не загружается)</span>
+      </div>
+
+      <section class="card" id="grammy-v-lozhki" data-kind="cooking">
+        <h2>Граммы в столовые ложки</h2>
+        <p class="lead">Перевод граммов в столовые и чайные ложки и в чашки зависит от продукта: у муки, сахара и масла разная плотность. Выберите ингредиент — объём пересчитается по массе на чашку 240 мл.</p>
+        <div class="toolbar">
+          <div class="field">
+            <label for="cook-ing">Продукт</label>
+            <select id="cook-ing" data-ingredient></select>
+          </div>
+        </div>
+        <div class="conv">
+          <div class="field">
+            <label for="cook-a">Исходное значение</label>
+            <input id="cook-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+            <label class="lbl" for="cook-from">Единица</label>
+            <select id="cook-from" data-from-unit></select>
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="cook-b">Результат</label>
+            <input id="cook-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+            <label class="lbl" for="cook-to">Единица</label>
+            <select id="cook-to" data-to-unit></select>
+          </div>
+        </div>
+        <p class="note" data-density-note></p>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th>Граммы</th>
+              <th>Ст. ложки</th>
+              <th>Ч. ложки</th>
+              <th>Чашки</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+        <details class="densities" open>
+          <summary>Какие плотности используются</summary>
+          <p>Чашка принята как 240 мл, столовая ложка — 15 мл, чайная ложка — 5 мл. Это обычные кулинарные округления; лабораторная плотность продукта может отличаться из‑за влажности и способа набора в ложку.</p>
+          <table class="quick" data-density-table>
+            <thead>
+              <tr>
+                <th>Продукт</th>
+                <th>Граммов на 240 мл</th>
+                <th>Плотность, г/мл</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </details>
+      </section>
+
+      <section class="card" id="mili-v-kilometry" data-pair="mi-km">
+        <h2>Мили в километры</h2>
+        <p class="lead">Международная миля: 1 миля = 1,609344 км ровно.</p>
+        <div class="conv">
+          <div class="field">
+            <label for="mi-km-a"><span data-label="a">Мили</span></label>
+            <input id="mi-km-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="mi-km-b"><span data-label="b">Километры</span></label>
+            <input id="mi-km-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>Мили</th>
+              <th data-quick-b>Километры</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="funty-v-kilogrammy" data-pair="lb-kg">
+        <h2>Фунты в килограммы</h2>
+        <p class="lead">Международный фунт (avoirdupois): 1 фунт = 0,45359237 кг ровно. 16 унций = 1 фунт.</p>
+        <div class="conv">
+          <div class="field">
+            <label for="lb-kg-a"><span data-label="a">Фунты</span></label>
+            <input id="lb-kg-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="lb-kg-b"><span data-label="b">Килограммы</span></label>
+            <input id="lb-kg-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>Фунты</th>
+              <th data-quick-b>Килограммы</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="celsii-v-farengeyty" data-pair="c-f">
+        <h2>Цельсии в фаренгейты</h2>
+        <p class="lead">Формула: °F = °C × 9/5 + 32. Ноль градусов Цельсия — это 32 °F, кипение воды — 100 °C = 212 °F, а −40 °C совпадает с −40 °F.</p>
+        <div class="conv">
+          <div class="field">
+            <label for="c-f-a"><span data-label="a">°C</span></label>
+            <input id="c-f-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="c-f-b"><span data-label="b">°F</span></label>
+            <input id="c-f-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>°C</th>
+              <th data-quick-b>°F</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <div class="ad-slot ad-slot--inarticle" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="XXXXXXXXXX" aria-label="Рекламный блок">
+        <span class="ad-slot__label">Реклама</span>
+        <span class="ad-slot__note">Место для блока Google AdSense между разделами (заглушка, код не загружается)</span>
+      </div>
+
+      <section class="card" id="litry-v-gallony" data-pair="l-gal">
+        <h2>Литры в галлоны</h2>
+        <p class="lead">Используется жидкий галлон США: 1 галлон США = 3,785411784 л ровно (231 кубический дюйм). Имперский галлон здесь не считается.</p>
+        <div class="conv">
+          <div class="field">
+            <label for="l-gal-a"><span data-label="a">Литры</span></label>
+            <input id="l-gal-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="l-gal-b"><span data-label="b">Галлоны (США)</span></label>
+            <input id="l-gal-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>Литры</th>
+              <th data-quick-b>Галлоны (США)</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="dyuymy-v-santimetry" data-pair="in-cm">
+        <h2>Дюймы в сантиметры</h2>
+        <p class="lead">1 дюйм = 2,54 см ровно.</p>
+        <div class="conv">
+          <div class="field">
+            <label for="in-cm-a"><span data-label="a">Дюймы</span></label>
+            <input id="in-cm-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="in-cm-b"><span data-label="b">Сантиметры</span></label>
+            <input id="in-cm-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>Дюймы</th>
+              <th data-quick-b>Сантиметры</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="futy-v-metry" data-pair="ft-m">
+        <h2>Футы в метры</h2>
+        <p class="lead">1 фут = 0,3048 м ровно (12 дюймов).</p>
+        <div class="conv">
+          <div class="field">
+            <label for="ft-m-a"><span data-label="a">Футы</span></label>
+            <input id="ft-m-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="ft-m-b"><span data-label="b">Метры</span></label>
+            <input id="ft-m-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>Футы</th>
+              <th data-quick-b>Метры</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="untsii-v-grammy" data-pair="oz-g">
+        <h2>Унции в граммы</h2>
+        <p class="lead">Авуадупная унция: 1 унция = 28,349523125 г ровно (1/16 международного фунта). Это не жидкая унция.</p>
+        <div class="conv">
+          <div class="field">
+            <label for="oz-g-a"><span data-label="a">Унции</span></label>
+            <input id="oz-g-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="oz-g-b"><span data-label="b">Граммы</span></label>
+            <input id="oz-g-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>Унции</th>
+              <th data-quick-b>Граммы</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="ml-v-zhidkie-untsii" data-pair="ml-floz">
+        <h2>Миллилитры в жидкие унции</h2>
+        <p class="lead">Жидкая унция США: 1 fl oz = 29,5735295625 мл (1/128 галлона США). Имперская жидкая унция здесь не считается.</p>
+        <div class="conv">
+          <div class="field">
+            <label for="ml-floz-a"><span data-label="a">Миллилитры</span></label>
+            <input id="ml-floz-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="ml-floz-b"><span data-label="b">Жидкие унции (США)</span></label>
+            <input id="ml-floz-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>Миллилитры</th>
+              <th data-quick-b>Жидкие унции</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="kmch-v-milich" data-pair="kmh-mph">
+        <h2>Километры в час в мили в час</h2>
+        <p class="lead">1 миля/ч = 1,609344 км/ч, тот же коэффициент, что у международной мили.</p>
+        <div class="conv">
+          <div class="field">
+            <label for="kmh-mph-a"><span data-label="a">Км/ч</span></label>
+            <input id="kmh-mph-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="kmh-mph-b"><span data-label="b">Миль/ч</span></label>
+            <input id="kmh-mph-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>Км/ч</th>
+              <th data-quick-b>Миль/ч</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="bayty-v-megabayty" data-kind="bytes">
+        <h2>Байты в мегабайты</h2>
+        <p class="lead">Можно считать и по тысячам (СИ: 1 КБ = 1000 байт), и по степеням двойки (IEC: 1 КиБ = 1024 байта). Выберите основание, затем единицы.</p>
+        <div class="toolbar">
+          <div class="field">
+            <span class="lbl" id="bytes-base-label">Система счисления</span>
+            <div class="bytes-base" role="group" aria-labelledby="bytes-base-label">
+              <button type="button" data-base="1000" aria-pressed="true">Десятичная (1000)</button>
+              <button type="button" data-base="1024" aria-pressed="false">Двоичная (1024)</button>
+            </div>
+          </div>
+        </div>
+        <div class="conv">
+          <div class="field">
+            <label for="bytes-a">Исходное значение</label>
+            <input id="bytes-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+            <label class="lbl" for="bytes-from">Единица</label>
+            <select id="bytes-from" data-from-unit></select>
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="bytes-b">Результат</label>
+            <input id="bytes-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+            <label class="lbl" for="bytes-to">Единица</label>
+            <select id="bytes-to" data-to-unit></select>
+          </div>
+        </div>
+        <p class="note" data-base-note></p>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th>Значение</th>
+              <th>Байты</th>
+              <th>МБ / МиБ</th>
+              <th>ГБ / ГиБ</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="kv-m-v-kv-futy" data-pair="m2-sqft">
+        <h2>Квадратные метры в квадратные футы</h2>
+        <p class="lead">1 кв. фут = 0,09290304 м² ровно (0,3048 м в квадрате).</p>
+        <div class="conv">
+          <div class="field">
+            <label for="m2-sqft-a"><span data-label="a">Кв. метры</span></label>
+            <input id="m2-sqft-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="m2-sqft-b"><span data-label="b">Кв. футы</span></label>
+            <input id="m2-sqft-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>Кв. метры</th>
+              <th data-quick-b>Кв. футы</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="gektary-v-akry" data-pair="ha-acre">
+        <h2>Гектары в акры</h2>
+        <p class="lead">1 гектар = 10 000 м². Международный акр = 4046,8564224 м² (43 560 кв. футов), то есть 1 акр ≈ 0,40468564224 га.</p>
+        <div class="conv">
+          <div class="field">
+            <label for="ha-acre-a"><span data-label="a">Гектары</span></label>
+            <input id="ha-acre-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="ha-acre-b"><span data-label="b">Акры</span></label>
+            <input id="ha-acre-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>Гектары</th>
+              <th data-quick-b>Акры</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="yardy-v-metry" data-pair="yd-m">
+        <h2>Ярды в метры</h2>
+        <p class="lead">1 ярд = 0,9144 м ровно (3 фута).</p>
+        <div class="conv">
+          <div class="field">
+            <label for="yd-m-a"><span data-label="a">Ярды</span></label>
+            <input id="yd-m-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="yd-m-b"><span data-label="b">Метры</span></label>
+            <input id="yd-m-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>Ярды</th>
+              <th data-quick-b>Метры</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="kvt-v-loshadinye-sily" data-pair="kw-hp">
+        <h2>Киловатты в лошадиные силы</h2>
+        <p class="lead">Здесь метрическая лошадиная сила (л.с., PS): 1 л.с. = 735,49875 Вт = 0,73549875 кВт. Механическая британская hp (745,7 Вт) не используется.</p>
+        <div class="conv">
+          <div class="field">
+            <label for="kw-hp-a"><span data-label="a">Киловатты</span></label>
+            <input id="kw-hp-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="kw-hp-b"><span data-label="b">Л.с. (метрические)</span></label>
+            <input id="kw-hp-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>Киловатты</th>
+              <th data-quick-b>Л.с.</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="kalorii-v-kdzh" data-pair="kcal-kj">
+        <h2>Калории в килоджоули</h2>
+        <p class="lead">В быту «калория» на этикетках — это килокалория (ккал, пищевая калория). 1 ккал = 4,184 кДж (термохимическая калория). Малая калория (4,184 Дж) здесь не используется.</p>
+        <div class="conv">
+          <div class="field">
+            <label for="kcal-kj-a"><span data-label="a">Килокалории</span></label>
+            <input id="kcal-kj-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="kcal-kj-b"><span data-label="b">Килоджоули</span></label>
+            <input id="kcal-kj-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>Килокалории</th>
+              <th data-quick-b>Килоджоули</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="atm-bar-v-psi" data-kind="pressure">
+        <h2>Атмосферы и бары в psi</h2>
+        <p class="lead">1 стандартная атмосфера = 101 325 Па = 1,01325 бар. 1 бар = 100 000 Па. 1 psi считается из определения фунта и дюйма. Все три поля обновляются вместе.</p>
+        <div class="triple">
+          <div class="field">
+            <label for="atm">Атмосферы (атм)</label>
+            <input id="atm" type="text" inputmode="decimal" autocomplete="off" data-atm>
+          </div>
+          <div class="field">
+            <label for="bar">Бары</label>
+            <input id="bar" type="text" inputmode="decimal" autocomplete="off" data-bar>
+          </div>
+          <div class="field">
+            <label for="psi">psi</label>
+            <input id="psi" type="text" inputmode="decimal" autocomplete="off" data-psi>
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th>атм</th>
+              <th>бар</th>
+              <th>psi</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="l-100km-v-mpg" data-pair="l100-mpg">
+        <h2>Литры на 100 км в мили на галлон</h2>
+        <p class="lead">Американский mpg: расход в милях на галлон США. Формула: mpg = 235,214583… / (л/100 км), где коэффициент равен 100 × 3,785411784 / 1,609344. Имперский mpg не используется.</p>
+        <div class="conv">
+          <div class="field">
+            <label for="l100-mpg-a"><span data-label="a">Л/100 км</span></label>
+            <input id="l100-mpg-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="l100-mpg-b"><span data-label="b">mpg (США)</span></label>
+            <input id="l100-mpg-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>Л/100 км</th>
+              <th data-quick-b>mpg (США)</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="chasy-v-minuty-v-sekundy" data-kind="time">
+        <h2>Часы в минуты и секунды</h2>
+        <p class="lead">1 час = 60 минут = 3600 секунд. Все три поля связаны: меняете одно — пересчитываются остальные.</p>
+        <div class="triple">
+          <div class="field">
+            <label for="hours">Часы</label>
+            <input id="hours" type="text" inputmode="decimal" autocomplete="off" data-hours>
+          </div>
+          <div class="field">
+            <label for="minutes">Минуты</label>
+            <input id="minutes" type="text" inputmode="decimal" autocomplete="off" data-minutes>
+          </div>
+          <div class="field">
+            <label for="seconds">Секунды</label>
+            <input id="seconds" type="text" inputmode="decimal" autocomplete="off" data-seconds>
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th>Часы</th>
+              <th>Минуты</th>
+              <th>Секунды</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <section class="card" id="stouny-v-kilogrammy" data-pair="st-kg">
+        <h2>Стоуны в килограммы</h2>
+        <p class="lead">1 стоун = 14 международных фунтов = 6,35029318 кг ровно.</p>
+        <div class="conv">
+          <div class="field">
+            <label for="st-kg-a"><span data-label="a">Стоуны</span></label>
+            <input id="st-kg-a" type="text" inputmode="decimal" autocomplete="off" data-end="a">
+          </div>
+          <button type="button" class="swap" title="Поменять местами" aria-label="Поменять местами">⇄</button>
+          <div class="field">
+            <label for="st-kg-b"><span data-label="b">Килограммы</span></label>
+            <input id="st-kg-b" type="text" inputmode="decimal" autocomplete="off" data-end="b">
+          </div>
+        </div>
+        <table class="quick">
+          <caption>Быстрый перевод</caption>
+          <thead>
+            <tr>
+              <th data-quick-a>Стоуны</th>
+              <th data-quick-b>Килограммы</th>
+            </tr>
+          </thead>
+          <tbody data-quick></tbody>
+        </table>
+      </section>
+
+      <footer class="site-footer">
+        <p>Сайт локальный, никуда не публиковался. Откройте файл <code>index.html</code> в браузере — интернет не нужен.</p>
+        <p>Коэффициенты: международная миля, фунт, дюйм, фут, ярд, галлон США, стандартная атмосфера и термохимическая килокалория. Лошадиная сила — метрическая (735,49875 Вт). Кулинарные плотности — справочные значения на чашку 240 мл.</p>
+      </footer>
+    </div>
+  </main>
+  <script src="conversions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

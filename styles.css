@@ -406,3 +406,53 @@ select {
     padding: 1.4rem 1.4rem 1.45rem;
   }
 }
+
+.table-wrap {
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+.table-wrap .quick {
+  margin-top: 0;
+  min-width: 36rem;
+}
+
+.handbook a {
+  font-weight: 600;
+}
+
+.handbook ul {
+  margin: 0.4rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.howto ol,
+.howto ul {
+  margin: 0.4rem 0 0.8rem;
+  padding-left: 1.2rem;
+}
+
+.howto li {
+  margin: 0.25rem 0;
+}
+
+.result-line {
+  margin: 0.9rem 0 0;
+  font-size: 0.95rem;
+}
+
+.result-line strong {
+  font-variant-numeric: tabular-nums;
+}
+
+.grid-fields {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.7rem;
+}
+
+@media (min-width: 640px) {
+  .grid-fields {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

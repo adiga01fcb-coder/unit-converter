@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Таблица размеров обуви: Россия, Европа, США, Великобритания</title>
+  <meta name="description" content="Калькулятор и таблица размеров обуви: длина стопы в сантиметрах, российский метрический размер, EU, UK, США мужской и женский. Как измерить стопу и чем отличаются шкалы.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://adiga01fcb-coder.github.io/unit-converter/razmery-obuvi.html">
+  <meta property="og:title" content="Таблица размеров обуви: RU, EU, US, UK">
+  <meta property="og:description" content="Перевод российских, европейских, английских и американских размеров обуви по длине стопы. Калькулятор и таблица, без регистрации.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:url" content="https://adiga01fcb-coder.github.io/unit-converter/razmery-obuvi.html">
+  <meta property="og:image" content="favicon.svg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "Таблица размеров обуви",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "inLanguage": "ru",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RUB" },
+        "description": "Калькулятор и таблица размеров обуви: длина стопы, российский метрический размер, EU, UK, США."
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Как узнать российский размер обуви по длине стопы?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "В метрической системе, близкой к международному стандарту Mondopoint (ISO 9407) и ГОСТ Р ИСО 9407, российский размер равен длине стопы в сантиметрах. Если стопа 25,0 см, метрический размер — 25."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Чем российский размер отличается от европейского?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Российский метрический размер — это длина стопы в сантиметрах. Европейский размер (EU) измеряется в парижских точках (2/3 см) по длине колодки, а не стопы. Поэтому при стопе 25 см EU обычно около 40, а не 25. В магазинах иногда называют «русским» европейский размер — это путаница, на этой странице они разделены."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Как правильно измерить длину стопы?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Измеряйте вечером, стоя на листе бумаги, вес равномерно на обеих ногах. Обведите стопу и измерьте расстояние от самой задней точки пятки до самого длинного пальца. Берите большую из двух ног и округляйте вверх до 0,5 см. К полученной длине не нужно заранее добавлять припуск: для EU, UK и US он уже заложен в формулы перевода."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Почему размер в разных брендах не совпадает?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Шкалы задают только длину. Форма колодки, припуск на носок, полнота и посадка у производителей разные. Таблица даёт ориентир по длине стопы; перед заказом сверяйтесь с сантиметровой сеткой конкретного бренда."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#osnovnoe">К содержанию</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="favicon.svg" width="32" height="32" alt="">
+        Конвертер единиц
+      </a>
+      <nav class="toc" aria-label="Содержание">
+        <a href="index.html">На главную</a>
+        <a href="#kalkulyator">Калькулятор</a>
+        <a href="#tablitsa">Таблица</a>
+        <a href="#kak-izmerit">Как измерить</a>
+        <a href="#shkaly">Шкалы и формулы</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="osnovnoe">
+    <div class="wrap">
+      <header class="hero" id="verh">
+        <h1>Таблица размеров обуви</h1>
+        <p>Перевод длины стопы в российский метрический размер, европейский (EU), английский (UK) и американский (США, мужской и женский). Считается в браузере, без регистрации.</p>
+      </header>
+
+      <!--
+        Подключение Google AdSense (неактивно, пока нет настоящего идентификатора):
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+      -->
+      <div class="ad-slot ad-slot--banner" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="XXXXXXXXXX" aria-label="Рекламный блок">
+        <span class="ad-slot__label">Реклама</span>
+        <span class="ad-slot__note">Место для блока Google AdSense (заглушка, код не загружается)</span>
+      </div>
+
+      <section class="card" id="kalkulyator">
+        <h2>Калькулятор размеров обуви</h2>
+        <p class="lead">Введите любое значение — остальные поля пересчитаются. За основу взята длина стопы: российский размер в сантиметрах по Mondopoint / ГОСТ Р ИСО 9407, европейский и англо-американские шкалы — с типичным припуском на колодку.</p>
+        <div class="grid-fields">
+          <div class="field">
+            <label for="size-cm">Длина стопы, см</label>
+            <input id="size-cm" type="text" inputmode="decimal" autocomplete="off" data-kind="cm">
+          </div>
+          <div class="field">
+            <label for="size-ru">Российский (метрический)</label>
+            <input id="size-ru" type="text" inputmode="decimal" autocomplete="off" data-kind="ru">
+          </div>
+          <div class="field">
+            <label for="size-eu">Европейский, EU</label>
+            <input id="size-eu" type="text" inputmode="decimal" autocomplete="off" data-kind="eu">
+          </div>
+          <div class="field">
+            <label for="size-uk">Великобритания, UK</label>
+            <input id="size-uk" type="text" inputmode="decimal" autocomplete="off" data-kind="uk">
+          </div>
+          <div class="field">
+            <label for="size-usm">США, мужской</label>
+            <input id="size-usm" type="text" inputmode="decimal" autocomplete="off" data-kind="usm">
+          </div>
+          <div class="field">
+            <label for="size-usw">США, женский</label>
+            <input id="size-usw" type="text" inputmode="decimal" autocomplete="off" data-kind="usw">
+          </div>
+        </div>
+        <p class="result-line" data-result></p>
+        <p class="note">Калькулятор для взрослых шкал. Детские размеры UK и США считаются от другой точки отсчёта, сюда их подставлять не стоит. Полнота (ширина) колодки в размере не учитывается.</p>
+      </section>
+
+      <section class="card" id="tablitsa">
+        <h2>Таблица соответствия размеров</h2>
+        <p class="lead">Шаг 0,5 см по длине стопы. Значения EU, UK и США округлены до 0,5 размера — так обычно маркируют обувь. Нажмите строку, чтобы подставить длину в калькулятор.</p>
+        <div class="table-wrap">
+          <table class="quick">
+            <caption>Взрослые размеры обуви</caption>
+            <thead>
+              <tr>
+                <th>Стопа, см</th>
+                <th>RU</th>
+                <th>EU</th>
+                <th>UK</th>
+                <th>США муж.</th>
+                <th>США жен.</th>
+              </tr>
+            </thead>
+            <tbody data-size-table></tbody>
+          </table>
+        </div>
+      </section>
+
+      <div class="ad-slot ad-slot--inarticle" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="XXXXXXXXXX" aria-label="Рекламный блок">
+        <span class="ad-slot__label">Реклама</span>
+        <span class="ad-slot__note">Место для блока Google AdSense между разделами (заглушка, код не загружается)</span>
+      </div>
+
+      <section class="card howto" id="kak-izmerit">
+        <h2>Как измерить длину стопы</h2>
+        <ol>
+          <li>Измеряйте вечером: за день стопа немного увеличивается.</li>
+          <li>Поставьте ногу на лист бумаги, стойте ровно, вес на обеих ногах. Наденьте носок той толщины, с которым будете носить обувь.</li>
+          <li>Обведите контур карандашом вертикально. Отметьте самую заднюю точку пятки и кончик самого длинного пальца — это не всегда большой палец.</li>
+          <li>Измерьте расстояние между этими точками линейкой в сантиметрах. Повторите для второй ноги и возьмите большую длину.</li>
+          <li>Округлите вверх до 0,5 см и введите в калькулятор. Отдельный запас «на вырост» в длину стопы добавлять не нужно: для EU, UK и США припуск на колодку уже заложен в перевод.</li>
+        </ol>
+        <p class="note">Если стоите между двумя размерами, для закрытой обуви обычно берут больший, особенно к концу дня или для плотных носков. Для бренда надёжнее свериться с его собственной сантиметровой сеткой.</p>
+      </section>
+
+      <section class="card howto" id="shkaly">
+        <h2>Шкалы и формулы</h2>
+        <p>Все пересчёты на странице идут от длины стопы в миллиметрах. Формулы ниже можно проверить калькулятором.</p>
+        <ul>
+          <li><strong>Российский метрический размер (RU).</strong> Равен длине стопы в сантиметрах: RU = длина стопы, см. Это соответствует идее международного стандарта Mondopoint (ISO 9407) и ГОСТ Р ИСО 9407: размер задаётся длиной стопы в миллиметрах, в рознице часто пишут те же сантиметры. Размер 25 — это стопа 25,0 см, а не европейская «25-ка».</li>
+          <li><strong>Европейский размер (EU).</strong> Шаг — парижская точка, ровно 2/3 см, то есть 20/3 мм. Маркируют длину колодки, не стопы. Здесь принят типичный припуск 15 мм: EU = (длина стопы, мм + 15) × 3 / 20. Пример: стопа 26,5 см даёт EU = 42,0 ровно. У отдельных фабрик припуск бывает 10–20 мм, поэтому на полразмера возможны расхождения.</li>
+          <li><strong>Великобритания (UK, взрослые).</strong> Шаг — барликорн, 1/3 дюйма. Классическая формула для колодки: UK = 3 × длина колодки в дюймах − 25. При типичном припуске 2/3 дюйма это сводится к UK = 3 × (длина стопы в дюймах) − 23. Проверка: стопа ровно 10 дюймов (25,4 см) даёт UK 7,0.</li>
+          <li><strong>США, мужской.</strong> Обычно на один размер больше британского: США муж. = UK + 1. Та же стопа 25,4 см даёт размер 8,0.</li>
+          <li><strong>США, женский.</strong> В распространённой розничной шкале на два размера больше британского: США жен. = UK + 2. Та же стопа даёт 9,0. Встречается и сдвиг 1,5 (система Браннока) — если бренд указывает свою сетку, лучше следовать ей.</li>
+        </ul>
+        <p class="note">Детские шкалы UK и США начинаются от другой нулевой точки, эти формулы к ним не относятся. Ширина и полнота в номере размера не отражены: одна и та же длина может сидеть тесно или свободно.</p>
+      </section>
+
+      <section class="card howto" id="voprosy">
+        <h2>Частые вопросы</h2>
+        <p><strong>Как узнать российский размер по длине стопы?</strong> В метрической системе он совпадает с длиной стопы в сантиметрах. Стопа 24,5 см — размер 24,5.</p>
+        <p><strong>Почему RU и EU не совпадают?</strong> Это разные шкалы. Метрический размер — длина стопы в сантиметрах, европейский — длина колодки в парижских точках. При стопе 25 см EU будет около 40. Если продавец называет «русским» число вроде 40, скорее всего, перед вами европейский размер.</p>
+        <p><strong>Можно ли заказывать обувь только по этой таблице?</strong> Таблица — ориентир по длине. Форма колодки, подъём и полнота у брендов разные, поэтому перед покупкой сверяйтесь с сантиметровой таблицей производителя и отзывами о посадке.</p>
+      </section>
+
+      <footer class="site-footer">
+        <p><a href="index.html">На главную: конвертер единиц</a></p>
+        <p>Формулы: Mondopoint / ГОСТ Р ИСО 9407 для метрического размера; EU — парижская точка 2/3 см и припуск 15 мм; UK — барликорн 1/3 дюйма и припуск 2/3 дюйма; США мужской = UK + 1, женский = UK + 2. Это справочные соответствия, не замена сетки конкретного бренда.</p>
+      </footer>
+    </div>
+  </main>
+  <script>
+  (function () {
+    "use strict";
+
+    var ALLOWANCE_EU_MM = 15;
+    var MM_PER_INCH = 25.4;
+    var TABLE_MM_FROM = 220;
+    var TABLE_MM_TO = 310;
+    var TABLE_STEP = 5;
+
+    function parseNum(raw) {
+      if (raw == null) return NaN;
+      var s = String(raw).trim().replace(/\s+/g, "").replace(",", ".");
+      if (!s) return NaN;
+      var n = Number(s);
+      return Number.isFinite(n) ? n : NaN;
+    }
+
+    function formatOne(n) {
+      if (!Number.isFinite(n)) return "";
+      var r = Math.round(n * 10) / 10;
+      return r.toFixed(1).replace(".", ",");
+    }
+
+    function formatHalf(n) {
+      if (!Number.isFinite(n)) return "";
+      var r = Math.round(n * 2) / 2;
+      return r.toFixed(1).replace(".", ",");
+    }
+
+    function euFromMm(mm) {
+      return (mm + ALLOWANCE_EU_MM) * 3 / 20;
+    }
+
+    function ukFromMm(mm) {
+      return 3 * (mm / MM_PER_INCH) - 23;
+    }
+
+    function usmFromMm(mm) {
+      return ukFromMm(mm) + 1;
+    }
+
+    function uswFromMm(mm) {
+      return ukFromMm(mm) + 2;
+    }
+
+    function mmFromKind(kind, value) {
+      switch (kind) {
+        case "cm":
+        case "ru":
+          return value * 10;
+        case "eu":
+          return value * 20 / 3 - ALLOWANCE_EU_MM;
+        case "uk":
+          return ((value + 23) / 3) * MM_PER_INCH;
+        case "usm":
+          return ((value + 22) / 3) * MM_PER_INCH;
+        case "usw":
+          return ((value + 21) / 3) * MM_PER_INCH;
+        default:
+          return NaN;
+      }
+    }
+
+    function allFromMm(mm) {
+      return {
+        cm: mm / 10,
+        ru: mm / 10,
+        eu: euFromMm(mm),
+        uk: ukFromMm(mm),
+        usm: usmFromMm(mm),
+        usw: uswFromMm(mm)
+      };
+    }
+
+    var inputs = {
+      cm: document.getElementById("size-cm"),
+      ru: document.getElementById("size-ru"),
+      eu: document.getElementById("size-eu"),
+      uk: document.getElementById("size-uk"),
+      usm: document.getElementById("size-usm"),
+      usw: document.getElementById("size-usw")
+    };
+    var resultEl = document.querySelector("[data-result]");
+    var tableBody = document.querySelector("[data-size-table]");
+    var updating = false;
+
+    function setResult(mm) {
+      if (!resultEl) return;
+      if (!Number.isFinite(mm) || mm <= 0) {
+        resultEl.textContent = "Введите длину стопы или любой известный размер.";
+        return;
+      }
+      var v = allFromMm(mm);
+      resultEl.innerHTML =
+        "Стопа <strong>" + formatOne(v.cm) + " см</strong>: российский метрический <strong>" +
+        formatOne(v.ru) + "</strong>, EU <strong>" + formatHalf(v.eu) +
+        "</strong>, UK <strong>" + formatHalf(v.uk) + "</strong>, США муж. <strong>" +
+        formatHalf(v.usm) + "</strong>, США жен. <strong>" + formatHalf(v.usw) + "</strong>.";
+    }
+
+    function applyMm(mm, sourceKind) {
+      var v = allFromMm(mm);
+      updating = true;
+      Object.keys(inputs).forEach(function (kind) {
+        var el = inputs[kind];
+        if (!el) return;
+        if (kind === sourceKind && document.activeElement === el) return;
+        if (kind === "cm" || kind === "ru") {
+          el.value = formatOne(v[kind]);
+        } else {
+          el.value = formatHalf(v[kind]);
+        }
+      });
+      updating = false;
+      setResult(mm);
+    }
+
+    function onInput(kind) {
+      if (updating) return;
+      var el = inputs[kind];
+      var value = parseNum(el.value);
+      if (!Number.isFinite(value) || value <= 0) {
+        setResult(NaN);
+        return;
+      }
+      var mm = mmFromKind(kind, value);
+      if (!Number.isFinite(mm) || mm <= 0) {
+        setResult(NaN);
+        return;
+      }
+      applyMm(mm, kind);
+    }
+
+    Object.keys(inputs).forEach(function (kind) {
+      var el = inputs[kind];
+      if (!el) return;
+      el.addEventListener("input", function () { onInput(kind); });
+      el.addEventListener("change", function () { onInput(kind); });
+    });
+
+    function fillTable() {
+      if (!tableBody) return;
+      tableBody.textContent = "";
+      for (var mm = TABLE_MM_FROM; mm <= TABLE_MM_TO; mm += TABLE_STEP) {
+        var v = allFromMm(mm);
+        var tr = document.createElement("tr");
+        tr.dataset.mm = String(mm);
+        var cells = [
+          formatOne(v.cm),
+          formatOne(v.ru),
+          formatHalf(v.eu),
+          formatHalf(v.uk),
+          formatHalf(v.usm),
+          formatHalf(v.usw)
+        ];
+        cells.forEach(function (text, i) {
+          var td = document.createElement("td");
+          td.textContent = text;
+          if (i > 0) td.style.textAlign = "right";
+          tr.appendChild(td);
+        });
+        tableBody.appendChild(tr);
+      }
+    }
+
+    if (tableBody) {
+      tableBody.addEventListener("click", function (event) {
+        var tr = event.target.closest("tr");
+        if (!tr || !tr.dataset.mm) return;
+        var mm = Number(tr.dataset.mm);
+        applyMm(mm, null);
+        var calc = document.getElementById("kalkulyator");
+        if (calc && calc.scrollIntoView) {
+          calc.scrollIntoView({ block: "start" });
+        }
+        if (inputs.cm) inputs.cm.focus();
+      });
+    }
+
+    fillTable();
+    applyMm(250, null);
+
+    window.__shoeSize = {
+      mmFromKind: mmFromKind,
+      allFromMm: allFromMm,
+      euFromMm: euFromMm,
+      ukFromMm: ukFromMm,
+      parseNum: parseNum
+    };
+  })();
+  </script>
+</body>
+</html>

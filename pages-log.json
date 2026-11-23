@@ -5,7 +5,25 @@
       "topic": "Таблица размеров обуви",
       "file": "razmery-obuvi.html",
       "url": "https://adiga01fcb-coder.github.io/unit-converter/razmery-obuvi.html",
-      "socialDraft": "social-drafts/2026-11-20.md"
+      "socialDraft": "social-drafts/2026-11-20.md",
+      "published": {
+        "commit": "844684a",
+        "status": "ok, page and sitemap.xml HTTP 200 on GitHub Pages"
+      }
+    }
+  ],
+  "searchConsole": {
+    "sitemapSubmitted": "2026-11-20",
+    "sitemapStatus": "Не получено (первичный статус после отправки, ожидается перечитывание Google)",
+    "indexingRequested": [
+      "razmery-obuvi.html (2026-11-20)"
+    ]
+  },
+  "runs": [
+    {
+      "date": "2026-11-20T02:50 MSK",
+      "routine": "Ночная публикация",
+      "result": "Пропущено: страница за 2026-11-20 (Таблица размеров обуви) уже добавлена и опубликована вручную в 01:41 MSK; вторую страницу за ночь не добавлял. Sitemap в Search Console уже отправлен, повторно не отправлять."
     }
   ]
 }

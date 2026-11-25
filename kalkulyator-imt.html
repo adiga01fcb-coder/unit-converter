@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y8XR64HK3S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Y8XR64HK3S');
+  </script>
+  <title>Калькулятор ИМТ онлайн: индекс массы тела по росту и весу</title>
+  <meta name="description" content="Рассчитайте индекс массы тела (ИМТ) по росту и весу: формула, классификация ВОЗ, таблица нормального веса для роста от 150 до 200 см. Пример расчёта, кг и фунты.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://adiga01fcb-coder.github.io/unit-converter/kalkulyator-imt.html">
+  <meta property="og:title" content="Калькулятор ИМТ: индекс массы тела по росту и весу">
+  <meta property="og:description" content="ИМТ = вес, кг / рост, м². Калькулятор, классификация ВОЗ и таблица нормального веса по росту, без регистрации.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:url" content="https://adiga01fcb-coder.github.io/unit-converter/kalkulyator-imt.html">
+  <meta property="og:image" content="favicon.svg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <style>.quick tbody tr.is-active{background:rgba(37,99,235,.14);font-weight:600}</style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "Калькулятор ИМТ",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Any",
+        "inLanguage": "ru",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RUB" },
+        "description": "Расчёт индекса массы тела по росту и весу с классификацией ВОЗ и таблицей нормального веса."
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Как рассчитать ИМТ?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Разделите вес в килограммах на квадрат роста в метрах: ИМТ = вес / рост². Например, 70 кг при росте 1,75 м: 70 / (1,75 × 1,75) = 70 / 3,0625 ≈ 22,9." }
+          },
+          {
+            "@type": "Question",
+            "name": "Какой ИМТ считается нормальным?",
+            "acceptedAnswer": { "@type": "Answer", "text": "По классификации ВОЗ для взрослых нормальная масса тела соответствует ИМТ от 18,5 до 24,9. От 25 до 29,9 — избыточная масса тела, от 30 — ожирение." }
+          },
+          {
+            "@type": "Question",
+            "name": "Подходит ли ИМТ для детей и спортсменов?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Нет. Для детей и подростков ИМТ оценивают по возрастным центильным таблицам ВОЗ. У спортсменов с большой мышечной массой ИМТ может быть завышен, у пожилых — занижен. Это скрининговый показатель, а не диагноз." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#osnovnoe">К содержанию</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="favicon.svg" width="32" height="32" alt="">
+        Конвертер единиц
+      </a>
+      <nav class="toc" aria-label="Содержание">
+        <a href="index.html">На главную</a>
+        <a href="#kalkulyator">Калькулятор</a>
+        <a href="#klassifikatsiya">Классификация ВОЗ</a>
+        <a href="#tablitsa">Таблица веса</a>
+        <a href="#formula">Формула</a>
+        <a href="razmery-obuvi.html">Размеры обуви</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="osnovnoe">
+    <div class="wrap">
+      <header class="hero" id="verh">
+        <h1>Калькулятор ИМТ — индекс массы тела</h1>
+        <p>Введите рост и вес, чтобы узнать индекс массы тела, его категорию по классификации ВОЗ и диапазон нормального веса для вашего роста. Считается в браузере, без регистрации.</p>
+      </header>
+
+      <!--
+        Подключение Google AdSense (неактивно, пока нет настоящего идентификатора):
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+      -->
+      <div class="ad-slot ad-slot--banner" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="XXXXXXXXXX" aria-label="Рекламный блок">
+        <span class="ad-slot__label">Реклама</span>
+        <span class="ad-slot__note">Место для блока Google AdSense (заглушка, код не загружается)</span>
+      </div>
+
+      <section class="card" id="kalkulyator">
+        <h2>Рассчитать ИМТ</h2>
+        <p class="lead">Заполните рост и вес в сантиметрах и килограммах. Если знаете вес в фунтах или рост в дюймах, введите их — метрические поля пересчитаются сами (1 фунт = 0,45359237 кг, 1 дюйм = 2,54 см).</p>
+        <div class="grid-fields">
+          <div class="field">
+            <label for="bmi-cm">Рост, см</label>
+            <input id="bmi-cm" type="text" inputmode="decimal" autocomplete="off" value="175">
+          </div>
+          <div class="field">
+            <label for="bmi-kg">Вес, кг</label>
+            <input id="bmi-kg" type="text" inputmode="decimal" autocomplete="off" value="70">
+          </div>
+          <div class="field">
+            <label for="bmi-in">Рост, дюймы</label>
+            <input id="bmi-in" type="text" inputmode="decimal" autocomplete="off">
+          </div>
+          <div class="field">
+            <label for="bmi-lb">Вес, фунты</label>
+            <input id="bmi-lb" type="text" inputmode="decimal" autocomplete="off">
+          </div>
+        </div>
+        <p class="result-line" data-result aria-live="polite"></p>
+        <p class="result-line" data-range></p>
+        <p class="note">Калькулятор рассчитан на взрослых от 18 лет. Для детей, подростков и беременных ИМТ по этой шкале не оценивают.</p>
+      </section>
+
+      <section class="card" id="klassifikatsiya">
+        <h2>Классификация ИМТ по ВОЗ</h2>
+        <p class="lead">Категории для взрослых мужчин и женщин одинаковые. Ваша строка подсвечивается после расчёта.</p>
+        <div class="table-wrap">
+          <table class="quick">
+            <caption>Индекс массы тела и категория</caption>
+            <thead>
+              <tr><th>ИМТ, кг/м²</th><th>Категория</th></tr>
+            </thead>
+            <tbody data-classes></tbody>
+          </table>
+        </div>
+      </section>
+
+      <div class="ad-slot ad-slot--inarticle" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="XXXXXXXXXX" aria-label="Рекламный блок">
+        <span class="ad-slot__label">Реклама</span>
+        <span class="ad-slot__note">Место для блока Google AdSense между разделами (заглушка, код не загружается)</span>
+      </div>
+
+      <section class="card" id="tablitsa">
+        <h2>Таблица нормального веса по росту</h2>
+        <p class="lead">Диапазон веса, при котором ИМТ находится в пределах нормы 18,5–24,9. Значения округлены до 0,1 кг: нижняя граница вверх, верхняя вниз, чтобы ИМТ гарантированно попадал в норму.</p>
+        <div class="table-wrap">
+          <table class="quick">
+            <caption>Нормальный вес для взрослых</caption>
+            <thead>
+              <tr><th>Рост, см</th><th>Вес от, кг</th><th>Вес до, кг</th><th>ИМТ 25 (избыток), кг</th><th>ИМТ 30 (ожирение), кг</th></tr>
+            </thead>
+            <tbody data-weight-table></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card howto" id="formula">
+        <h2>Формула и пример расчёта</h2>
+        <p>Индекс массы тела предложил бельгийский статистик Адольф Кетле в XIX веке, поэтому его ещё называют индексом Кетле. Формула одна для всех:</p>
+        <p><strong>ИМТ = вес (кг) / рост (м)²</strong></p>
+        <ol>
+          <li>Переведите рост в метры: 175 см = 1,75 м.</li>
+          <li>Возведите в квадрат: 1,75 × 1,75 = 3,0625.</li>
+          <li>Разделите вес на результат: 70 / 3,0625 ≈ 22,86. Округлённо ИМТ 22,9 — нормальная масса тела.</li>
+        </ol>
+        <p>В имперских единицах формула такая: ИМТ = 703,0696 × вес (фунты) / рост (дюймы)². Коэффициент получается из 0,45359237 кг в фунте и 0,0254 м в дюйме; часто его округляют до 703.</p>
+        <p>Обратный расчёт тоже простой: вес для нужного ИМТ = ИМТ × рост². Например, верхняя граница нормы для роста 1,75 м: 24,9 × 3,0625 ≈ 76,26 кг (в таблице округлено вниз — 76,2 кг).</p>
+      </section>
+
+      <section class="card howto" id="voprosy">
+        <h2>Частые вопросы</h2>
+        <p><strong>Отличается ли норма ИМТ для мужчин и женщин?</strong> Нет, классификация ВОЗ для взрослых общая. Различается распределение жира, поэтому врачи дополнительно смотрят на окружность талии: риск выше при талии более 94 см у мужчин и более 80 см у женщин.</p>
+        <p><strong>Почему у спортсмена ИМТ показывает избыток веса?</strong> Формула не отличает мышцы от жира. При большой мышечной массе ИМТ 26–28 может быть вариантом нормы.</p>
+        <p><strong>Как оценить ИМТ ребёнка?</strong> Для детей и подростков ИМТ сравнивают с возрастными и половыми центилями ВОЗ, взрослые границы 18,5 и 25 к ним не применяются.</p>
+        <p class="note">ИМТ — скрининговый показатель. Решения о диете и лечении принимайте вместе с врачом.</p>
+      </section>
+
+      <footer class="site-footer">
+        <p><a href="index.html">На главную: конвертер единиц</a></p>
+        <p>Формула: ИМТ = кг / м². Классификация — ВОЗ для взрослых. Перевод единиц: 1 фунт = 0,45359237 кг, 1 дюйм = 2,54 см точно; имперский коэффициент 703,0696.</p>
+      </footer>
+    </div>
+  </main>
+  <script>
+  (function () {
+    "use strict";
+    var LB = 0.45359237;
+    var IN = 2.54;
+    var CLASSES = [
+      { min: 0, max: 16, label: "Выраженный дефицит массы тела" },
+      { min: 16, max: 17, label: "Умеренный дефицит массы тела" },
+      { min: 17, max: 18.5, label: "Лёгкий дефицит массы тела" },
+      { min: 18.5, max: 25, label: "Нормальная масса тела" },
+      { min: 25, max: 30, label: "Избыточная масса тела (предожирение)" },
+      { min: 30, max: 35, label: "Ожирение I степени" },
+      { min: 35, max: 40, label: "Ожирение II степени" },
+      { min: 40, max: Infinity, label: "Ожирение III степени" }
+    ];
+    var el = {
+      cm: document.getElementById("bmi-cm"),
+      kg: document.getElementById("bmi-kg"),
+      inch: document.getElementById("bmi-in"),
+      lb: document.getElementById("bmi-lb"),
+      result: document.querySelector("[data-result]"),
+      range: document.querySelector("[data-range]"),
+      classes: document.querySelector("[data-classes]"),
+      table: document.querySelector("[data-weight-table]")
+    };
+
+    function parseNum(raw) {
+      var s = String(raw || "").replace(/\s/g, "").replace(",", ".");
+      if (s === "") return NaN;
+      var n = Number(s);
+      return isFinite(n) ? n : NaN;
+    }
+    function fmt(n, d) {
+      return n.toLocaleString("ru-RU", { minimumFractionDigits: d, maximumFractionDigits: d });
+    }
+    function bmi(kg, cm) {
+      var m = cm / 100;
+      return kg / (m * m);
+    }
+    function classOf(v) {
+      for (var i = 0; i < CLASSES.length; i++) {
+        if (v >= CLASSES[i].min && v < CLASSES[i].max) return i;
+      }
+      return -1;
+    }
+    function rangeText(c) {
+      if (c.min === 0) return "менее 16,0";
+      if (c.max === Infinity) return "40,0 и более";
+      return fmt(c.min, 1) + " – " + fmt(c.max - 0.1, 1);
+    }
+
+    CLASSES.forEach(function (c, i) {
+      var tr = document.createElement("tr");
+      tr.setAttribute("data-class", String(i));
+      tr.innerHTML = "<td>" + rangeText(c) + "</td><td>" + c.label + "</td>";
+      el.classes.appendChild(tr);
+    });
+
+    for (var h = 150; h <= 200; h += 5) {
+      var m2 = (h / 100) * (h / 100);
+      var tr = document.createElement("tr");
+      tr.innerHTML = "<td>" + h + "</td><td>" + fmt(Math.ceil(18.5 * m2 * 10) / 10, 1) +
+        "</td><td>" + fmt(Math.floor(24.9 * m2 * 10) / 10, 1) +
+        "</td><td>" + fmt(Math.round(25 * m2 * 10) / 10, 1) +
+        "</td><td>" + fmt(Math.round(30 * m2 * 10) / 10, 1) + "</td>";
+      el.table.appendChild(tr);
+    }
+
+    function render() {
+      var cm = parseNum(el.cm.value);
+      var kg = parseNum(el.kg.value);
+      var rows = el.classes.querySelectorAll("tr");
+      for (var i = 0; i < rows.length; i++) rows[i].classList.remove("is-active");
+      if (!(cm >= 50 && cm <= 272) || !(kg >= 2 && kg <= 650)) {
+        el.result.textContent = "Введите рост от 50 до 272 см и вес от 2 до 650 кг.";
+        el.range.textContent = "";
+        return;
+      }
+      var v = bmi(kg, cm);
+      var idx = classOf(v);
+      el.result.textContent = "ИМТ: " + fmt(v, 1) + " — " + CLASSES[idx].label.charAt(0).toLowerCase() + CLASSES[idx].label.slice(1) + ".";
+      if (rows[idx]) rows[idx].classList.add("is-active");
+      var m2 = (cm / 100) * (cm / 100);
+      el.range.textContent = "Нормальный вес при росте " + fmt(cm, 0) + " см: от " +
+        fmt(Math.ceil(18.5 * m2 * 10) / 10, 1) + " до " + fmt(Math.floor(24.9 * m2 * 10) / 10, 1) + " кг.";
+    }
+
+    el.cm.addEventListener("input", function () {
+      var v = parseNum(el.cm.value);
+      el.inch.value = isFinite(v) ? fmt(v / IN, 1) : "";
+      render();
+    });
+    el.kg.addEventListener("input", function () {
+      var v = parseNum(el.kg.value);
+      el.lb.value = isFinite(v) ? fmt(v / LB, 1) : "";
+      render();
+    });
+    el.inch.addEventListener("input", function () {
+      var v = parseNum(el.inch.value);
+      el.cm.value = isFinite(v) ? String(Math.round(v * IN * 10) / 10).replace(".", ",") : "";
+      render();
+    });
+    el.lb.addEventListener("input", function () {
+      var v = parseNum(el.lb.value);
+      el.kg.value = isFinite(v) ? String(Math.round(v * LB * 10) / 10).replace(".", ",") : "";
+      render();
+    });
+
+    el.inch.value = fmt(parseNum(el.cm.value) / IN, 1);
+    el.lb.value = fmt(parseNum(el.kg.value) / LB, 1);
+    render();
+
+    window.__bmiSelfTest = function () {
+      return {
+        example: Math.round(bmi(70, 175) * 100) / 100,
+        imperial: Math.round(703.0696 * (70 / LB) / Math.pow(175 / IN, 2) * 100) / 100,
+        cls: CLASSES[classOf(bmi(70, 175))].label
+      };
+    };
+  })();
+  </script>
+</body>
+</html>

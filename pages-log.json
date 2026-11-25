@@ -20,7 +20,8 @@
       "backup": "~/Desktop/Бэкапы/unit-converter-backups/unit-converter-20261125-025257.tar.gz",
       "checks": "HTML/JS синтаксис ok, sitemap.xml валиден, страница и главная загружаются в jsdom без ошибок консоли (headless Chrome на box завис при запуске, проверка заменена на jsdom), ИМТ 70 кг/175 см = 22,86 (метрика и 703,0696×фунты/дюймы² совпадают), google-site-verification на месте",
       "published": {
-        "status": "pending"
+        "commit": "67e59f9",
+        "status": "ok, kalkulyator-imt.html и sitemap.xml отдают HTTP 200 на GitHub Pages (проверено 2026-11-25 ~03:03 MSK), новая страница есть в sitemap, google-site-verification на главной на месте"
       }
     }
   ],
@@ -28,7 +29,8 @@
     "sitemapSubmitted": "2026-11-20",
     "sitemapStatus": "Не получено (первичный статус после отправки, ожидается перечитывание Google)",
     "indexingRequested": [
-      "razmery-obuvi.html (2026-11-20)"
+      "razmery-obuvi.html (2026-11-20)",
+      "kalkulyator-imt.html (2026-11-25, нажато один раз, подтверждение не зафиксировано)"
     ]
   },
   "runs": [
@@ -36,6 +38,11 @@
       "date": "2026-11-20T02:50 MSK",
       "routine": "Ночная публикация",
       "result": "Пропущено: страница за 2026-11-20 (Таблица размеров обуви) уже добавлена и опубликована вручную в 01:41 MSK; вторую страницу за ночь не добавлял. Sitemap в Search Console уже отправлен, повторно не отправлять."
+    },
+    {
+      "date": "2026-11-25T03:05 MSK",
+      "routine": "Ночная публикация",
+      "result": "Добавлена и опубликована страница «Калькулятор ИМТ»: https://adiga01fcb-coder.github.io/unit-converter/kalkulyator-imt.html (коммит 67e59f9). Ссылки добавлены в навигацию и «Справочник» главной, sitemap.xml обновлён. Sitemap в Search Console уже отправлен ранее (2026-11-20), повторно не отправлял. Проверка URL: «URL нет в индексе Google»; «Запросить индексирование» нажато один раз, окно «Проверяется возможность индексации URL…» появилось и закрылось, итоговое подтверждение не зафиксировано — результат не определён, повторно не запрашивал. Черновик анонса (Telegram + X): social-drafts/2026-11-25.md, ничего не публиковалось. Примечание: проект теперь лежит в ~/Desktop/Сайты и проекты/unit-converter, бэкапы — в ~/Desktop/Бэкапы/unit-converter-backups (в задаче указан старый путь ~/Desktop/unit-converter)."
     }
   ]
 }

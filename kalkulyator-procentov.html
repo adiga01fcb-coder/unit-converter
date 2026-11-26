@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y8XR64HK3S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Y8XR64HK3S');
+  </script>
+  <title>Калькулятор процентов онлайн: процент от числа, прибавить и вычесть процент</title>
+  <meta name="description" content="Посчитать процент от числа, сколько процентов одно число составляет от другого, прибавить или вычесть процент и найти изменение в процентах. Формулы, примеры и таблица долей.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://adiga01fcb-coder.github.io/unit-converter/kalkulyator-procentov.html">
+  <meta property="og:title" content="Калькулятор процентов: от числа, прибавить, вычесть, изменение">
+  <meta property="og:description" content="Четыре калькулятора процентов с формулами и примерами, таблица перевода процентов в дроби. Без регистрации.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:url" content="https://adiga01fcb-coder.github.io/unit-converter/kalkulyator-procentov.html">
+  <meta property="og:image" content="favicon.svg">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "Калькулятор процентов",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "Any",
+        "inLanguage": "ru",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RUB" },
+        "description": "Процент от числа, доля в процентах, прибавление и вычитание процента, изменение в процентах."
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Как найти процент от числа?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Умножьте число на процент и разделите на 100. Например, 15% от 2400: 2400 × 15 / 100 = 360." }
+          },
+          {
+            "@type": "Question",
+            "name": "Как узнать, сколько процентов одно число составляет от другого?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Разделите часть на целое и умножьте на 100. Например, 45 от 180: 45 / 180 × 100 = 25%." }
+          },
+          {
+            "@type": "Question",
+            "name": "Почему после скидки 20% и наценки 20% цена не возвращается?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Проценты считаются от разных баз. 1000 − 20% = 800, а 800 + 20% = 960. Чтобы вернуться к 1000, нужно прибавить 25%." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#osnovnoe">К содержанию</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="favicon.svg" width="32" height="32" alt="">
+        Конвертер единиц
+      </a>
+      <nav class="toc" aria-label="Содержание">
+        <a href="index.html">На главную</a>
+        <a href="#ot-chisla">Процент от числа</a>
+        <a href="#dolya">Доля в %</a>
+        <a href="#pribavit">Прибавить / вычесть</a>
+        <a href="#izmenenie">Изменение в %</a>
+        <a href="#tablitsa">Таблица долей</a>
+        <a href="kalkulyator-imt.html">Калькулятор ИМТ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="osnovnoe">
+    <div class="wrap">
+      <header class="hero" id="verh">
+        <h1>Калькулятор процентов онлайн</h1>
+        <p>Четыре самых частых расчёта с процентами: процент от числа, какую долю одно число составляет от другого, прибавление или вычитание процента и изменение величины в процентах. Под каждым калькулятором — формула, по которой он считает.</p>
+      </header>
+
+      <!--
+        Подключение Google AdSense (неактивно, пока нет настоящего идентификатора):
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+      -->
+      <div class="ad-slot ad-slot--banner" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="XXXXXXXXXX" aria-label="Рекламный блок">
+        <span class="ad-slot__label">Реклама</span>
+        <span class="ad-slot__note">Место для блока Google AdSense (заглушка, код не загружается)</span>
+      </div>
+
+      <section class="card" id="ot-chisla">
+        <h2>Сколько будет X% от числа</h2>
+        <div class="grid-fields">
+          <div class="field">
+            <label for="p1-pct">Процент, %</label>
+            <input id="p1-pct" type="text" inputmode="decimal" autocomplete="off" value="15">
+          </div>
+          <div class="field">
+            <label for="p1-num">От числа</label>
+            <input id="p1-num" type="text" inputmode="decimal" autocomplete="off" value="2400">
+          </div>
+        </div>
+        <p class="result-line" data-r1 aria-live="polite"></p>
+        <p class="note">Формула: число × процент / 100. 15% от 2400 = 2400 × 15 / 100 = 360.</p>
+      </section>
+
+      <section class="card" id="dolya">
+        <h2>Сколько процентов составляет одно число от другого</h2>
+        <div class="grid-fields">
+          <div class="field">
+            <label for="p2-part">Часть</label>
+            <input id="p2-part" type="text" inputmode="decimal" autocomplete="off" value="45">
+          </div>
+          <div class="field">
+            <label for="p2-whole">Целое (100%)</label>
+            <input id="p2-whole" type="text" inputmode="decimal" autocomplete="off" value="180">
+          </div>
+        </div>
+        <p class="result-line" data-r2 aria-live="polite"></p>
+        <p class="note">Формула: часть / целое × 100. 45 от 180 = 45 / 180 × 100 = 25%.</p>
+      </section>
+
+      <section class="card" id="pribavit">
+        <h2>Прибавить или вычесть процент</h2>
+        <p class="lead">Подходит для наценки, скидки, повышения зарплаты или налога сверху суммы.</p>
+        <div class="grid-fields">
+          <div class="field">
+            <label for="p3-num">Число</label>
+            <input id="p3-num" type="text" inputmode="decimal" autocomplete="off" value="1000">
+          </div>
+          <div class="field">
+            <label for="p3-pct">Процент, %</label>
+            <input id="p3-pct" type="text" inputmode="decimal" autocomplete="off" value="20">
+          </div>
+        </div>
+        <p class="result-line" data-r3 aria-live="polite"></p>
+        <p class="note">Прибавить: число × (1 + процент / 100). Вычесть: число × (1 − процент / 100). 1000 + 20% = 1200, 1000 − 20% = 800.</p>
+      </section>
+
+      <div class="ad-slot ad-slot--inarticle" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="XXXXXXXXXX" aria-label="Рекламный блок">
+        <span class="ad-slot__label">Реклама</span>
+        <span class="ad-slot__note">Место для блока Google AdSense между разделами (заглушка, код не загружается)</span>
+      </div>
+
+      <section class="card" id="izmenenie">
+        <h2>На сколько процентов изменилось число</h2>
+        <div class="grid-fields">
+          <div class="field">
+            <label for="p4-old">Было</label>
+            <input id="p4-old" type="text" inputmode="decimal" autocomplete="off" value="80">
+          </div>
+          <div class="field">
+            <label for="p4-new">Стало</label>
+            <input id="p4-new" type="text" inputmode="decimal" autocomplete="off" value="100">
+          </div>
+        </div>
+        <p class="result-line" data-r4 aria-live="polite"></p>
+        <p class="note">Формула: (стало − было) / было × 100. С 80 до 100 — рост на 25%, а с 100 до 80 — снижение на 20%: база у расчётов разная.</p>
+      </section>
+
+      <section class="card" id="tablitsa">
+        <h2>Таблица: проценты, дроби и множители</h2>
+        <p class="lead">Чтобы посчитать в уме, удобно помнить дробь. Множитель «+%» — на что умножить число, чтобы прибавить процент, «−%» — чтобы вычесть.</p>
+        <div class="table-wrap">
+          <table class="quick">
+            <caption>Частые проценты</caption>
+            <thead>
+              <tr><th>Процент</th><th>Десятичная дробь</th><th>Обыкновенная дробь</th><th>Множитель +%</th><th>Множитель −%</th></tr>
+            </thead>
+            <tbody data-table></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card" id="voprosy">
+        <h2>Частые вопросы</h2>
+        <p><strong>Как найти число по его проценту?</strong> Разделите известную часть на процент и умножьте на 100. Если 30% — это 600, то всё число: 600 / 30 × 100 = 2000.</p>
+        <p><strong>Как убрать процент, который уже включён в сумму?</strong> Разделите сумму на множитель, а не вычитайте процент. Если в 1200 уже включено 20%, исходная сумма: 1200 / 1,2 = 1000, а не 1200 − 20% = 960.</p>
+        <p><strong>Почему скидка 20%, а потом наценка 20% не возвращают цену?</strong> Второй процент берётся от уже уменьшенной суммы: 1000 → 800 → 960. Чтобы вернуться с 800 к 1000, нужно прибавить 25%.</p>
+        <p><strong>Чем процент отличается от процентного пункта?</strong> Если ставка выросла с 10% до 12%, она выросла на 2 процентных пункта, но на 20% в относительном выражении (2 / 10 × 100).</p>
+      </section>
+
+      <footer class="site-footer">
+        <p><a href="index.html">На главную: конвертер единиц</a></p>
+        <p>Расчёты выполняются в браузере. Результаты округляются до 4 знаков после запятой, лишние нули отбрасываются.</p>
+      </footer>
+    </div>
+  </main>
+  <script>
+  (function () {
+    "use strict";
+    function $(id) { return document.getElementById(id); }
+    function parseNum(raw) {
+      var s = String(raw || "").replace(/\s/g, "").replace(",", ".");
+      if (s === "") return NaN;
+      var n = Number(s);
+      return isFinite(n) ? n : NaN;
+    }
+    function fmt(n) {
+      return n.toLocaleString("ru-RU", { maximumFractionDigits: 4 });
+    }
+    function ofNumber(pct, num) { return num * pct / 100; }
+    function share(part, whole) { return part / whole * 100; }
+    function addPct(num, pct) { return num * (1 + pct / 100); }
+    function subPct(num, pct) { return num * (1 - pct / 100); }
+    function change(a, b) { return (b - a) / a * 100; }
+    var ASK = "Введите числа в оба поля.";
+
+    function r1() {
+      var p = parseNum($("p1-pct").value), n = parseNum($("p1-num").value);
+      document.querySelector("[data-r1]").textContent = isFinite(p) && isFinite(n) ?
+        fmt(p) + "% от " + fmt(n) + " = " + fmt(ofNumber(p, n)) : ASK;
+    }
+    function r2() {
+      var a = parseNum($("p2-part").value), b = parseNum($("p2-whole").value);
+      var out = document.querySelector("[data-r2]");
+      if (!isFinite(a) || !isFinite(b)) { out.textContent = ASK; return; }
+      if (b === 0) { out.textContent = "Целое не может быть равно нулю."; return; }
+      out.textContent = fmt(a) + " составляет " + fmt(share(a, b)) + "% от " + fmt(b);
+    }
+    function r3() {
+      var n = parseNum($("p3-num").value), p = parseNum($("p3-pct").value);
+      document.querySelector("[data-r3]").textContent = isFinite(n) && isFinite(p) ?
+        fmt(n) + " + " + fmt(p) + "% = " + fmt(addPct(n, p)) + "; " + fmt(n) + " − " + fmt(p) + "% = " + fmt(subPct(n, p)) : ASK;
+    }
+    function r4() {
+      var a = parseNum($("p4-old").value), b = parseNum($("p4-new").value);
+      var out = document.querySelector("[data-r4]");
+      if (!isFinite(a) || !isFinite(b)) { out.textContent = ASK; return; }
+      if (a === 0) { out.textContent = "Исходное значение не может быть равно нулю."; return; }
+      var c = change(a, b);
+      out.textContent = c === 0 ? "Значение не изменилось." :
+        (c > 0 ? "Рост на " : "Снижение на ") + fmt(Math.abs(c)) + "% (с " + fmt(a) + " до " + fmt(b) + ")";
+    }
+    [["p1-pct", r1], ["p1-num", r1], ["p2-part", r2], ["p2-whole", r2],
+     ["p3-num", r3], ["p3-pct", r3], ["p4-old", r4], ["p4-new", r4]].forEach(function (x) {
+      $(x[0]).addEventListener("input", x[1]);
+    });
+
+    var ROWS = [
+      [1, "1/100"], [2, "1/50"], [5, "1/20"], [10, "1/10"], [12.5, "1/8"],
+      [20, "1/5"], [25, "1/4"], [100 / 3, "1/3"], [40, "2/5"], [50, "1/2"],
+      [200 / 3, "2/3"], [75, "3/4"], [100, "1"]
+    ];
+    var tb = document.querySelector("[data-table]");
+    ROWS.forEach(function (r) {
+      var p = r[0], exact = Math.abs(p - Math.round(p * 10) / 10) < 1e-9;
+      var pctText = exact ? fmt(p) + "%" : "≈ " + p.toLocaleString("ru-RU", { maximumFractionDigits: 2 }) + "%";
+      var dec = p / 100, mark = exact ? "" : "≈ ";
+      var tr = document.createElement("tr");
+      tr.innerHTML = "<td>" + pctText + "</td><td>" + mark + dec.toLocaleString("ru-RU", { maximumFractionDigits: 4 }) +
+        "</td><td>" + r[1] + "</td><td>" + mark + (1 + dec).toLocaleString("ru-RU", { maximumFractionDigits: 4 }) +
+        "</td><td>" + mark + (1 - dec).toLocaleString("ru-RU", { maximumFractionDigits: 4 }) + "</td>";
+      tb.appendChild(tr);
+    });
+
+    r1(); r2(); r3(); r4();
+
+    window.__pctSelfTest = function () {
+      return {
+        ofNumber: ofNumber(15, 2400), share: share(45, 180), add: addPct(1000, 20),
+        sub: subPct(1000, 20), up: change(80, 100), down: change(100, 80),
+        r1: document.querySelector("[data-r1]").textContent,
+        r4: document.querySelector("[data-r4]").textContent,
+        rows: tb.querySelectorAll("tr").length
+      };
+    };
+  })();
+  </script>
+</body>
+</html>

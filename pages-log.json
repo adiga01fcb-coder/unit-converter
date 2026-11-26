@@ -23,6 +23,18 @@
         "commit": "67e59f9",
         "status": "ok, kalkulyator-imt.html и sitemap.xml отдают HTTP 200 на GitHub Pages (проверено 2026-11-25 ~03:03 MSK), новая страница есть в sitemap, google-site-verification на главной на месте"
       }
+    },
+    {
+      "date": "2026-11-27",
+      "topic": "Калькулятор процентов",
+      "file": "kalkulyator-procentov.html",
+      "url": "https://adiga01fcb-coder.github.io/unit-converter/kalkulyator-procentov.html",
+      "socialDraft": "social-drafts/2026-11-27.md",
+      "backup": "~/Desktop/Бэкапы/unit-converter-backups/unit-converter-20261127-025607.tar.gz",
+      "checks": "HTML/JS синтаксис ok, sitemap.xml валиден, страница и главная загружаются в jsdom без ошибок консоли (headless Chrome на box снова завис по таймауту, проверка заменена на jsdom); проверены расчёты: 15% от 2400 = 360, 45 от 180 = 25%, 1000 ±20% = 1200/800, с 80 до 100 = +25%, со 100 до 80 = −20%; google-site-verification на главной на месте",
+      "published": {
+        "status": "в процессе"
+      }
     }
   ],
   "searchConsole": {

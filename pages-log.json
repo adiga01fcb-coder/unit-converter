@@ -33,7 +33,8 @@
       "backup": "~/Desktop/Бэкапы/unit-converter-backups/unit-converter-20261127-025607.tar.gz",
       "checks": "HTML/JS синтаксис ok, sitemap.xml валиден, страница и главная загружаются в jsdom без ошибок консоли (headless Chrome на box снова завис по таймауту, проверка заменена на jsdom); проверены расчёты: 15% от 2400 = 360, 45 от 180 = 25%, 1000 ±20% = 1200/800, с 80 до 100 = +25%, со 100 до 80 = −20%; google-site-verification на главной на месте",
       "published": {
-        "status": "в процессе"
+        "commit": "2e496d0",
+        "status": "ok, kalkulyator-procentov.html, sitemap.xml (с новой страницей) и главная отдают HTTP 200 на GitHub Pages (проверено 2026-11-27 ~02:59 MSK), google-site-verification на главной на месте"
       }
     }
   ],
@@ -42,7 +43,8 @@
     "sitemapStatus": "Не получено (первичный статус после отправки, ожидается перечитывание Google)",
     "indexingRequested": [
       "razmery-obuvi.html (2026-11-20)",
-      "kalkulyator-imt.html (2026-11-25, нажато один раз, подтверждение не зафиксировано)"
+      "kalkulyator-imt.html (2026-11-25, нажато один раз, подтверждение не зафиксировано)",
+      "kalkulyator-procentov.html (2026-11-27, нажато один раз; Google: «Отправлен запрос на индексирование — URL добавлен в приоритетную очередь сканирования»; до этого статус «URL нет в индексе Google / URL неизвестен Google»)"
     ]
   },
   "runs": [
@@ -55,6 +57,11 @@
       "date": "2026-11-25T03:05 MSK",
       "routine": "Ночная публикация",
       "result": "Добавлена и опубликована страница «Калькулятор ИМТ»: https://adiga01fcb-coder.github.io/unit-converter/kalkulyator-imt.html (коммит 67e59f9). Ссылки добавлены в навигацию и «Справочник» главной, sitemap.xml обновлён. Sitemap в Search Console уже отправлен ранее (2026-11-20), повторно не отправлял. Проверка URL: «URL нет в индексе Google»; «Запросить индексирование» нажато один раз, окно «Проверяется возможность индексации URL…» появилось и закрылось, итоговое подтверждение не зафиксировано — результат не определён, повторно не запрашивал. Черновик анонса (Telegram + X): social-drafts/2026-11-25.md, ничего не публиковалось. Примечание: проект теперь лежит в ~/Desktop/Сайты и проекты/unit-converter, бэкапы — в ~/Desktop/Бэкапы/unit-converter-backups (в задаче указан старый путь ~/Desktop/unit-converter)."
+    },
+    {
+      "date": "2026-11-27T03:01 MSK",
+      "routine": "Ночная публикация",
+      "result": "Добавлена и опубликована страница «Калькулятор процентов»: https://adiga01fcb-coder.github.io/unit-converter/kalkulyator-procentov.html (коммит 2e496d0). Ссылки добавлены в навигацию и «Справочник» главной, sitemap.xml обновлён (lastmod главной 2026-11-27). Бэкап: ~/Desktop/Бэкапы/unit-converter-backups/unit-converter-20261127-025607.tar.gz. Sitemap в Search Console уже отправлен ранее (2026-11-20), повторно не отправлял. Проверка URL: «URL нет в индексе Google»; «Запросить индексирование» нажато один раз — подтверждено «Отправлен запрос на индексирование». Черновик анонса (Telegram + X): social-drafts/2026-11-27.md, ничего не публиковалось (папка social-drafts в .gitignore, на GitHub не попадает). Headless Chrome на box по-прежнему зависает, проверка выполнена в jsdom. Примечание: за ночь 2026-11-26 записи о запуске нет."
     }
   ]
 }
